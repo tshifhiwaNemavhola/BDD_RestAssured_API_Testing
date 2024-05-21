@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-21T06:42:59 SAST" name="Surefire suite" finished-at="2024-05-21T06:43:18 SAST" duration-ms="18590">
+    <groups>
+    </groups>
+    <test started-at="2024-05-21T06:42:59 SAST" name="Surefire test" finished-at="2024-05-21T06:43:18 SAST" duration-ms="18590">
+      <class name="base.BaseTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:base.BaseTest@5c645b43]" started-at="2024-05-21T06:42:57 SAST" name="setup" finished-at="2024-05-21T06:42:59 SAST" duration-ms="2358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- base.BaseTest -->
+      <class name="films.GetFilmTest">
+        <test-method signature="getAllFilms()[pri:0, instance:films.GetFilmTest@2bac9ba]" started-at="2024-05-21T06:43:00 SAST" name="getAllFilms" finished-at="2024-05-21T06:43:09 SAST" duration-ms="8654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllFilms -->
+        <test-method signature="getOneFilmByInvalidQueryParam()[pri:0, instance:films.GetFilmTest@2bac9ba]" started-at="2024-05-21T06:43:09 SAST" name="getOneFilmByInvalidQueryParam" finished-at="2024-05-21T06:43:10 SAST" duration-ms="1338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOneFilmByInvalidQueryParam -->
+        <test-method signature="getOneFilmByPathParam()[pri:0, instance:films.GetFilmTest@2bac9ba]" started-at="2024-05-21T06:43:10 SAST" name="getOneFilmByPathParam" finished-at="2024-05-21T06:43:12 SAST" duration-ms="1579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOneFilmByPathParam -->
+        <test-method signature="getOneFilmByQueryParam(java.lang.String)[pri:0, instance:films.GetFilmTest@2bac9ba]" started-at="2024-05-21T06:43:12 SAST" name="getOneFilmByQueryParam" data-provider="queryParamData" finished-at="2024-05-21T06:43:13 SAST" duration-ms="1708" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a new]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOneFilmByQueryParam -->
+        <test-method signature="getOneFilmByQueryParam(java.lang.String)[pri:0, instance:films.GetFilmTest@2bac9ba]" started-at="2024-05-21T06:43:13 SAST" name="getOneFilmByQueryParam" data-provider="queryParamData" finished-at="2024-05-21T06:43:15 SAST" duration-ms="1813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A New]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOneFilmByQueryParam -->
+        <test-method signature="getOneFilmByQueryParam(java.lang.String)[pri:0, instance:films.GetFilmTest@2bac9ba]" started-at="2024-05-21T06:43:15 SAST" name="getOneFilmByQueryParam" data-provider="queryParamData" finished-at="2024-05-21T06:43:17 SAST" duration-ms="1604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A New Hope]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOneFilmByQueryParam -->
+        <test-method signature="getOneFilmWithNonExistingId()[pri:0, instance:films.GetFilmTest@2bac9ba]" started-at="2024-05-21T06:43:17 SAST" name="getOneFilmWithNonExistingId" finished-at="2024-05-21T06:43:18 SAST" duration-ms="1201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOneFilmWithNonExistingId -->
+      </class> <!-- films.GetFilmTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
